@@ -26,10 +26,14 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        girlsfrontlinetools.cpp
+        girlsfrontlinetools.cpp \
+    dboperator.cpp \
+    gf_calc.cpp
 
 HEADERS += \
-        girlsfrontlinetools.h
+        girlsfrontlinetools.h \
+    dboperator.h \
+    gf_calc.h
 
 FORMS += \
         girlsfrontlinetools.ui
